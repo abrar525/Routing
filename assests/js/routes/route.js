@@ -17,5 +17,5 @@ routingApp.config(function ($stateProvider, $urlRouterProvider) {
         controller: "priceControl"
     })
 
-    $urlRouterProvider.otherwise("Home")
+    $urlRouterProvider.otherwise("/")
 })
